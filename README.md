@@ -7,6 +7,7 @@ ERP comptable marocain — Frontend React + ERPNext v16 headless.
 ```bash
 # Cloner le repo Frappe Bench
 git clone https://github.com/frappe/frappe_docker
+
 cd frappe_docker
 
 # Créer le dossier pour les projets
@@ -39,6 +40,15 @@ docker compose -f pwd.yml -f docker-compose.override.yml run --rm backend bench 
 ## 2. Lancer le frontend
 
 ```bash
+# Go back to your projects folder
+cd ..
+
+# Clone the cobilan project
+git clone https://github.com/othmandaif/cobilan.git
+
+# Now go into the cobilan folder
+cd cobilan
+
 # Installer les dépendances
 npm install
 
