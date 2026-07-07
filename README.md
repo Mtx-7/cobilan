@@ -39,6 +39,10 @@ docker compose -f pwd.yml -f docker-compose.override.yml run --rm backend bench 
 ## 2. Lancer le frontend
 
 ```bash
+
+# Clone the cobilan project
+git clone https://github.com/othmandaif/cobilan.git
+
 # Installer les dépendances
 npm install
 
